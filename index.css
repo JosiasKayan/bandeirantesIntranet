@@ -65,20 +65,11 @@ header li:hover{
 
 .layout1{
     text-align: center;
-    margin-top: 5mm;
-
+    font-family: calibri, Helvetica, sans-serif;   
+    color: rgb(50, 91, 180);
+    margin-top: 1.5mm;
+    font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -93,7 +84,7 @@ header li:hover{
  
 .layout2{
     height: 15cm;
-   
+ 
     display: flex;
 }
 
@@ -102,20 +93,75 @@ header li:hover{
 .q1{
     height: 280px;
     width: 450px;
-    background-color: white;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
     margin: 1cm 0 0 1cm;
 }
+
+
+
+
+
+.layout3{
+    height: 15cm;
+ 
+    display: flex;
+}
+
+/*Quadro cotação*/
+
+.q1{
+    height: 280px;
+    width: 450px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 1cm 0 0 1cm;
+    margin-left: 0.2cm;
+}
+
+
+
+
+/*COMUNICADOS*/
+
+.q4{
+    height: 13cm;
+    width: 10.5cm;
+    background-color: white;
+    margin: 1cm 0 0 1cm;
+    margin-left: 0.2cm;
+
+}
+
+h3#txt_q4{
+color: rgb(97, 97, 97);
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*Dados COMUNICADOS*/
+
+.info_aniver{
+    height: 11cm;
+    font-size: 15px;
+}
+
+.info_aniver p{
+        margin: 0 0 0 10px;
+    }
+
+
 
 
 
 /*Quadro de aniversáriantes*/
 
 .q2{
-    height: 7cm;
-    width: 10cm;
+    height: 13cm;
+    width: 10.5cm;
     background-color: white;
     margin: 1cm 0 0 1cm;
-    margin-left: 9cm;
+    margin-left: 0.2cm;
 
 }
 
@@ -128,8 +174,8 @@ color: rgb(97, 97, 97);
 /*Dados dos aniversáriantes*/
 
 .info_aniver{
-    height: 5.3cm;
-    font-size: 12px;
+    height: 11cm;
+    font-size: 15px;
 }
 
 .info_aniver p{
